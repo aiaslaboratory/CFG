@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "setup.py", line 34, in <module>
+    include_dirs=[osp.join(this_dir, _ext_src_root, "include")],
+  File "/home/zhangsh/.conda/envs/pointnet2/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 983, in CUDAExtension
+    library_dirs += library_paths(cuda=True)
+  File "/home/zhangsh/.conda/envs/pointnet2/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 1098, in library_paths
+    if (not os.path.exists(_join_cuda_home(lib_dir)) and
+  File "/home/zhangsh/.conda/envs/pointnet2/lib/python3.7/site-packages/torch/utils/cpp_extension.py", line 2125, in _join_cuda_home
+    raise EnvironmentError('CUDA_HOME environment variable is not set. '
+OSError: CUDA_HOME environment variable is not set. Please set it to your CUDA install root.
