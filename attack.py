@@ -195,7 +195,7 @@ if __name__ == '__main__':
     parser.add_argument('--eval_num', type=int, default=1, help='')
     ## PF loss
     parser.add_argument('--PF_loss_weight', type=float, default=0, help='')
-    parser.add_argument('--pp', type=float, default=0.5, help='生成随机数为1的概率')
+    parser.add_argument('--pp', type=float, default=0.5)
     ## perturbation clip setting
     parser.add_argument('--cc_linf', type=float, default=0.18, help='Coefficient for infinity norm')
     ## eval metric
