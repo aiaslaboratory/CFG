@@ -72,7 +72,7 @@ plotly==5.18.0
 pluggy==1.2.0
 plyfile==0.9
 -e git+https://github.com/erikwijmans/Pointnet2_PyTorch.git@b5ceb6d9ca0467ea34beb81023f96ee82228f626#egg=pointnet2
-pointnet2-ops @ file:///home/zhangsh/Pointnet2_PyTorch/pointnet2_ops_lib
+pointnet2-ops 
 prompt-toolkit==3.0.43
 protobuf==3.20.3
 provider==0.1.0
